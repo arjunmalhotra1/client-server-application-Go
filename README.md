@@ -37,9 +37,9 @@ Clients send requests to the external queue - while the server reads those and e
 # How to run the server and the client
 Open 2 terminals.
 1. On one terminal run 
- > make client
+ 	> make client
 2. On the other run 
-   > make server
+   	> make server
 
 # How to run the commands on the client
 You could send commands with client app:
