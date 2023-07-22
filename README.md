@@ -27,7 +27,7 @@ External queue:
 Clients send requests to the external queue - while the server reads those and execute them on its data structure. You define the structure of the messages (AddItem, RemoveItem, GetItem, GetAllItems)
 
 
-The flow of the project:
+# The flow of the project:
 1. Multiple clients are sending requests to the queue (and not waiting for the response).
 2. Server is reading requests from the queue and processing them, the output of the server is written to a log file
 3. Server is able to process items in parallel
